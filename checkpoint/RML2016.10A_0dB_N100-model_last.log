@@ -1,0 +1,659 @@
+2024-05-13 12:31:52,404 - ===> loading pretrain parameters from pre_ALLSNR_step_16/pre_snr_None\cdc-2024-05-12_20_35_34-model_last.pth
+2024-05-13 12:31:52,415 - ===> loading train, validation and eval dataset
+2024-05-13 12:31:53,161 - ### Model summary below###
+ ScpClassifier(
+  (classifier): Sequential(
+    (0): Linear(in_features=256, out_features=128, bias=True)
+    (1): Dropout(p=0.6, inplace=False)
+    (2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (3): ReLU()
+    (4): Linear(in_features=128, out_features=11, bias=True)
+  )
+)
+
+2024-05-13 12:31:53,161 - ===> Model total parameter: 34571
+
+2024-05-13 12:31:53,187 - Train Epoch: 1 [0.0/1100 (0%)]	lr:0.00025	Accuracy: 0.1172	Loss: 6.528569
+2024-05-13 12:31:53,370 - Starting Validation
+2024-05-13 12:31:53,520 - ===> Validation set: Average loss: 3.5228	Accuracy: 0.1964
+
+2024-05-13 12:31:56,826 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:31:56,826 - #### End epoch 1/120, elapsed time: 3.664389999999912
+2024-05-13 12:31:56,850 - Train Epoch: 2 [0.0/1100 (0%)]	lr:0.00250	Accuracy: 0.2812	Loss: 3.173294
+2024-05-13 12:31:57,029 - Starting Validation
+2024-05-13 12:31:57,169 - ===> Validation set: Average loss: 4.3203	Accuracy: 0.2023
+
+2024-05-13 12:32:00,589 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:00,589 - #### End epoch 2/120, elapsed time: 3.7636768999991546
+2024-05-13 12:32:00,614 - Train Epoch: 3 [0.0/1100 (0%)]	lr:0.00475	Accuracy: 0.3203	Loss: 2.565800
+2024-05-13 12:32:00,793 - Starting Validation
+2024-05-13 12:32:00,943 - ===> Validation set: Average loss: 3.7592	Accuracy: 0.2091
+
+2024-05-13 12:32:04,264 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:04,264 - #### End epoch 3/120, elapsed time: 3.6746119999997973
+2024-05-13 12:32:04,288 - Train Epoch: 4 [0.0/1100 (0%)]	lr:0.00700	Accuracy: 0.4062	Loss: 2.058254
+2024-05-13 12:32:04,468 - Starting Validation
+2024-05-13 12:32:04,607 - ===> Validation set: Average loss: 12.1402	Accuracy: 0.0909
+
+2024-05-13 12:32:04,607 - #### End epoch 4/120, elapsed time: 0.3426203999997597
+2024-05-13 12:32:04,626 - Train Epoch: 5 [0.0/1100 (0%)]	lr:0.00925	Accuracy: 0.4609	Loss: 1.450543
+2024-05-13 12:32:04,769 - Starting Validation
+2024-05-13 12:32:04,906 - ===> Validation set: Average loss: 5.9963	Accuracy: 0.1977
+
+2024-05-13 12:32:04,906 - #### End epoch 5/120, elapsed time: 0.29934899999989284
+2024-05-13 12:32:04,925 - Train Epoch: 6 [0.0/1100 (0%)]	lr:0.01150	Accuracy: 0.5469	Loss: 1.283307
+2024-05-13 12:32:05,070 - Starting Validation
+2024-05-13 12:32:05,205 - ===> Validation set: Average loss: 4.0813	Accuracy: 0.2227
+
+2024-05-13 12:32:08,485 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:08,486 - #### End epoch 6/120, elapsed time: 3.579051300000174
+2024-05-13 12:32:08,510 - Train Epoch: 7 [0.0/1100 (0%)]	lr:0.01192	Accuracy: 0.5312	Loss: 1.254617
+2024-05-13 12:32:08,689 - Starting Validation
+2024-05-13 12:32:08,830 - ===> Validation set: Average loss: 8.8331	Accuracy: 0.1018
+
+2024-05-13 12:32:08,830 - #### End epoch 7/120, elapsed time: 0.34467419999964477
+2024-05-13 12:32:08,849 - Train Epoch: 8 [0.0/1100 (0%)]	lr:0.01105	Accuracy: 0.5156	Loss: 1.212819
+2024-05-13 12:32:08,992 - Starting Validation
+2024-05-13 12:32:09,129 - ===> Validation set: Average loss: 3.4255	Accuracy: 0.2868
+
+2024-05-13 12:32:12,448 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:12,448 - #### End epoch 8/120, elapsed time: 3.6178860999998506
+2024-05-13 12:32:12,473 - Train Epoch: 9 [0.0/1100 (0%)]	lr:0.01035	Accuracy: 0.5391	Loss: 0.908212
+2024-05-13 12:32:12,652 - Starting Validation
+2024-05-13 12:32:12,805 - ===> Validation set: Average loss: 3.7180	Accuracy: 0.1855
+
+2024-05-13 12:32:12,805 - #### End epoch 9/120, elapsed time: 0.35624899999947957
+2024-05-13 12:32:12,825 - Train Epoch: 10 [0.0/1100 (0%)]	lr:0.00976	Accuracy: 0.7578	Loss: 0.722964
+2024-05-13 12:32:12,973 - Starting Validation
+2024-05-13 12:32:13,110 - ===> Validation set: Average loss: 5.2130	Accuracy: 0.1745
+
+2024-05-13 12:32:13,110 - #### End epoch 10/120, elapsed time: 0.30520760000035807
+2024-05-13 12:32:13,129 - Train Epoch: 11 [0.0/1100 (0%)]	lr:0.00927	Accuracy: 0.7422	Loss: 0.647012
+2024-05-13 12:32:13,276 - Starting Validation
+2024-05-13 12:32:13,414 - ===> Validation set: Average loss: 3.9255	Accuracy: 0.3145
+
+2024-05-13 12:32:16,823 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:16,823 - #### End epoch 11/120, elapsed time: 3.7129969000006895
+2024-05-13 12:32:16,848 - Train Epoch: 12 [0.0/1100 (0%)]	lr:0.00884	Accuracy: 0.6406	Loss: 0.772470
+2024-05-13 12:32:17,018 - Starting Validation
+2024-05-13 12:32:17,165 - ===> Validation set: Average loss: 2.7115	Accuracy: 0.4641
+
+2024-05-13 12:32:20,433 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:20,433 - #### End epoch 12/120, elapsed time: 3.610407699999996
+2024-05-13 12:32:20,458 - Train Epoch: 13 [0.0/1100 (0%)]	lr:0.00847	Accuracy: 0.7344	Loss: 0.623413
+2024-05-13 12:32:20,625 - Starting Validation
+2024-05-13 12:32:20,767 - ===> Validation set: Average loss: 3.4982	Accuracy: 0.3436
+
+2024-05-13 12:32:20,767 - #### End epoch 13/120, elapsed time: 0.33367290000023786
+2024-05-13 12:32:20,786 - Train Epoch: 14 [0.0/1100 (0%)]	lr:0.00814	Accuracy: 0.8047	Loss: 0.465054
+2024-05-13 12:32:20,929 - Starting Validation
+2024-05-13 12:32:21,077 - ===> Validation set: Average loss: 3.7396	Accuracy: 0.2936
+
+2024-05-13 12:32:21,077 - #### End epoch 14/120, elapsed time: 0.3104081999999835
+2024-05-13 12:32:21,098 - Train Epoch: 15 [0.0/1100 (0%)]	lr:0.00784	Accuracy: 0.7734	Loss: 0.545624
+2024-05-13 12:32:21,245 - Starting Validation
+2024-05-13 12:32:21,395 - ===> Validation set: Average loss: 3.2181	Accuracy: 0.3873
+
+2024-05-13 12:32:21,395 - #### End epoch 15/120, elapsed time: 0.3174476999993203
+2024-05-13 12:32:21,416 - Train Epoch: 16 [0.0/1100 (0%)]	lr:0.00758	Accuracy: 0.7969	Loss: 0.492447
+2024-05-13 12:32:21,571 - Starting Validation
+2024-05-13 12:32:21,722 - ===> Validation set: Average loss: 3.0919	Accuracy: 0.4673
+
+2024-05-13 12:32:25,019 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:25,019 - #### End epoch 16/120, elapsed time: 3.6242135000002236
+2024-05-13 12:32:25,044 - Train Epoch: 17 [0.0/1100 (0%)]	lr:0.00734	Accuracy: 0.7891	Loss: 0.454110
+2024-05-13 12:32:25,218 - Starting Validation
+2024-05-13 12:32:25,356 - ===> Validation set: Average loss: 3.0842	Accuracy: 0.5073
+
+2024-05-13 12:32:28,621 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:28,621 - #### End epoch 17/120, elapsed time: 3.6014797999996517
+2024-05-13 12:32:28,645 - Train Epoch: 18 [0.0/1100 (0%)]	lr:0.00712	Accuracy: 0.7812	Loss: 0.455244
+2024-05-13 12:32:28,824 - Starting Validation
+2024-05-13 12:32:28,962 - ===> Validation set: Average loss: 4.8513	Accuracy: 0.3318
+
+2024-05-13 12:32:28,962 - #### End epoch 18/120, elapsed time: 0.3412295999996786
+2024-05-13 12:32:28,981 - Train Epoch: 19 [0.0/1100 (0%)]	lr:0.00692	Accuracy: 0.8281	Loss: 0.357661
+2024-05-13 12:32:29,123 - Starting Validation
+2024-05-13 12:32:29,261 - ===> Validation set: Average loss: 3.1829	Accuracy: 0.4318
+
+2024-05-13 12:32:29,261 - #### End epoch 19/120, elapsed time: 0.2988329999998314
+2024-05-13 12:32:29,280 - Train Epoch: 20 [0.0/1100 (0%)]	lr:0.00674	Accuracy: 0.8281	Loss: 0.351562
+2024-05-13 12:32:29,422 - Starting Validation
+2024-05-13 12:32:29,560 - ===> Validation set: Average loss: 3.2282	Accuracy: 0.4573
+
+2024-05-13 12:32:29,561 - #### End epoch 20/120, elapsed time: 0.2990536000006614
+2024-05-13 12:32:29,580 - Train Epoch: 21 [0.0/1100 (0%)]	lr:0.00657	Accuracy: 0.8281	Loss: 0.394739
+2024-05-13 12:32:29,722 - Starting Validation
+2024-05-13 12:32:29,859 - ===> Validation set: Average loss: 3.2874	Accuracy: 0.4250
+
+2024-05-13 12:32:29,859 - #### End epoch 21/120, elapsed time: 0.29896959999950923
+2024-05-13 12:32:29,879 - Train Epoch: 22 [0.0/1100 (0%)]	lr:0.00640	Accuracy: 0.8828	Loss: 0.255630
+2024-05-13 12:32:30,025 - Starting Validation
+2024-05-13 12:32:30,163 - ===> Validation set: Average loss: 4.0828	Accuracy: 0.3041
+
+2024-05-13 12:32:30,163 - #### End epoch 22/120, elapsed time: 0.3040665999997145
+2024-05-13 12:32:30,183 - Train Epoch: 23 [0.0/1100 (0%)]	lr:0.00611	Accuracy: 0.8047	Loss: 0.321833
+2024-05-13 12:32:30,325 - Starting Validation
+2024-05-13 12:32:30,463 - ===> Validation set: Average loss: 3.7823	Accuracy: 0.4450
+
+2024-05-13 12:32:30,464 - #### End epoch 23/120, elapsed time: 0.3002411999996184
+2024-05-13 12:32:30,483 - Train Epoch: 24 [0.0/1100 (0%)]	lr:0.00587	Accuracy: 0.8359	Loss: 0.369105
+2024-05-13 12:32:30,626 - Starting Validation
+2024-05-13 12:32:30,764 - ===> Validation set: Average loss: 4.2502	Accuracy: 0.2564
+
+2024-05-13 12:32:30,764 - #### End epoch 24/120, elapsed time: 0.3010334000000512
+2024-05-13 12:32:30,784 - Train Epoch: 25 [0.0/1100 (0%)]	lr:0.00565	Accuracy: 0.8203	Loss: 0.380499
+2024-05-13 12:32:30,927 - Starting Validation
+2024-05-13 12:32:31,065 - ===> Validation set: Average loss: 6.8810	Accuracy: 0.1918
+
+2024-05-13 12:32:31,065 - #### End epoch 25/120, elapsed time: 0.29940950000036537
+2024-05-13 12:32:31,084 - Train Epoch: 26 [0.0/1100 (0%)]	lr:0.00543	Accuracy: 0.8906	Loss: 0.285084
+2024-05-13 12:32:31,227 - Starting Validation
+2024-05-13 12:32:31,364 - ===> Validation set: Average loss: 3.1207	Accuracy: 0.5050
+
+2024-05-13 12:32:31,364 - #### End epoch 26/120, elapsed time: 0.2997506000001522
+2024-05-13 12:32:31,383 - Train Epoch: 27 [0.0/1100 (0%)]	lr:0.00509	Accuracy: 0.8672	Loss: 0.289893
+2024-05-13 12:32:31,529 - Starting Validation
+2024-05-13 12:32:31,673 - ===> Validation set: Average loss: 3.2601	Accuracy: 0.5077
+
+2024-05-13 12:32:35,041 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:35,041 - #### End epoch 27/120, elapsed time: 3.676784100000077
+2024-05-13 12:32:35,065 - Train Epoch: 28 [0.0/1100 (0%)]	lr:0.00481	Accuracy: 0.8203	Loss: 0.334950
+2024-05-13 12:32:35,244 - Starting Validation
+2024-05-13 12:32:35,385 - ===> Validation set: Average loss: 3.7049	Accuracy: 0.4650
+
+2024-05-13 12:32:35,385 - #### End epoch 28/120, elapsed time: 0.3440381999998863
+2024-05-13 12:32:35,404 - Train Epoch: 29 [0.0/1100 (0%)]	lr:0.00458	Accuracy: 0.8047	Loss: 0.378908
+2024-05-13 12:32:35,553 - Starting Validation
+2024-05-13 12:32:35,692 - ===> Validation set: Average loss: 3.4151	Accuracy: 0.5055
+
+2024-05-13 12:32:35,692 - #### End epoch 29/120, elapsed time: 0.30710410000028787
+2024-05-13 12:32:35,712 - Train Epoch: 30 [0.0/1100 (0%)]	lr:0.00437	Accuracy: 0.8047	Loss: 0.402454
+2024-05-13 12:32:35,866 - Starting Validation
+2024-05-13 12:32:36,002 - ===> Validation set: Average loss: 2.2965	Accuracy: 0.5336
+
+2024-05-13 12:32:39,280 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:39,280 - #### End epoch 30/120, elapsed time: 3.5884408000001713
+2024-05-13 12:32:39,305 - Train Epoch: 31 [0.0/1100 (0%)]	lr:0.00419	Accuracy: 0.8516	Loss: 0.304960
+2024-05-13 12:32:39,484 - Starting Validation
+2024-05-13 12:32:39,622 - ===> Validation set: Average loss: 3.7054	Accuracy: 0.4191
+
+2024-05-13 12:32:39,622 - #### End epoch 31/120, elapsed time: 0.3420544999999038
+2024-05-13 12:32:39,642 - Train Epoch: 32 [0.0/1100 (0%)]	lr:0.00403	Accuracy: 0.8672	Loss: 0.310390
+2024-05-13 12:32:39,789 - Starting Validation
+2024-05-13 12:32:39,928 - ===> Validation set: Average loss: 3.7227	Accuracy: 0.4814
+
+2024-05-13 12:32:39,928 - #### End epoch 32/120, elapsed time: 0.3051085000006424
+2024-05-13 12:32:39,948 - Train Epoch: 33 [0.0/1100 (0%)]	lr:0.00389	Accuracy: 0.7969	Loss: 0.356814
+2024-05-13 12:32:40,101 - Starting Validation
+2024-05-13 12:32:40,242 - ===> Validation set: Average loss: 3.1972	Accuracy: 0.4750
+
+2024-05-13 12:32:40,242 - #### End epoch 33/120, elapsed time: 0.3133582000000388
+2024-05-13 12:32:40,261 - Train Epoch: 34 [0.0/1100 (0%)]	lr:0.00376	Accuracy: 0.8984	Loss: 0.231996
+2024-05-13 12:32:40,408 - Starting Validation
+2024-05-13 12:32:40,544 - ===> Validation set: Average loss: 1.5137	Accuracy: 0.6164
+
+2024-05-13 12:32:43,831 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:43,831 - #### End epoch 34/120, elapsed time: 3.5899466000000757
+2024-05-13 12:32:43,857 - Train Epoch: 35 [0.0/1100 (0%)]	lr:0.00364	Accuracy: 0.9062	Loss: 0.240788
+2024-05-13 12:32:44,037 - Starting Validation
+2024-05-13 12:32:44,192 - ===> Validation set: Average loss: 3.2758	Accuracy: 0.5182
+
+2024-05-13 12:32:44,192 - #### End epoch 35/120, elapsed time: 0.36050860000068496
+2024-05-13 12:32:44,213 - Train Epoch: 36 [0.0/1100 (0%)]	lr:0.00354	Accuracy: 0.8359	Loss: 0.318161
+2024-05-13 12:32:44,362 - Starting Validation
+2024-05-13 12:32:44,497 - ===> Validation set: Average loss: 1.2480	Accuracy: 0.6377
+
+2024-05-13 12:32:47,817 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:47,818 - #### End epoch 36/120, elapsed time: 3.6252489999997124
+2024-05-13 12:32:47,842 - Train Epoch: 37 [0.0/1100 (0%)]	lr:0.00344	Accuracy: 0.9141	Loss: 0.276912
+2024-05-13 12:32:48,012 - Starting Validation
+2024-05-13 12:32:48,163 - ===> Validation set: Average loss: 3.2995	Accuracy: 0.5159
+
+2024-05-13 12:32:48,163 - #### End epoch 37/120, elapsed time: 0.3458653999996386
+2024-05-13 12:32:48,183 - Train Epoch: 38 [0.0/1100 (0%)]	lr:0.00335	Accuracy: 0.8359	Loss: 0.302586
+2024-05-13 12:32:48,325 - Starting Validation
+2024-05-13 12:32:48,461 - ===> Validation set: Average loss: 3.2792	Accuracy: 0.4941
+
+2024-05-13 12:32:48,462 - #### End epoch 38/120, elapsed time: 0.2982462999998461
+2024-05-13 12:32:48,481 - Train Epoch: 39 [0.0/1100 (0%)]	lr:0.00326	Accuracy: 0.8516	Loss: 0.290970
+2024-05-13 12:32:48,623 - Starting Validation
+2024-05-13 12:32:48,759 - ===> Validation set: Average loss: 2.1958	Accuracy: 0.5609
+
+2024-05-13 12:32:48,759 - #### End epoch 39/120, elapsed time: 0.2979813000001741
+2024-05-13 12:32:48,779 - Train Epoch: 40 [0.0/1100 (0%)]	lr:0.00319	Accuracy: 0.9219	Loss: 0.228603
+2024-05-13 12:32:48,931 - Starting Validation
+2024-05-13 12:32:49,075 - ===> Validation set: Average loss: 1.1757	Accuracy: 0.6741
+
+2024-05-13 12:32:52,379 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:52,379 - #### End epoch 40/120, elapsed time: 3.619229500000074
+2024-05-13 12:32:52,404 - Train Epoch: 41 [0.0/1100 (0%)]	lr:0.00312	Accuracy: 0.8906	Loss: 0.234834
+2024-05-13 12:32:52,580 - Starting Validation
+2024-05-13 12:32:52,846 - ===> Validation set: Average loss: 0.9174	Accuracy: 0.7141
+
+2024-05-13 12:32:56,118 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:32:56,118 - #### End epoch 41/120, elapsed time: 3.739039000000048
+2024-05-13 12:32:56,142 - Train Epoch: 42 [0.0/1100 (0%)]	lr:0.00305	Accuracy: 0.8438	Loss: 0.302474
+2024-05-13 12:32:56,323 - Starting Validation
+2024-05-13 12:32:56,474 - ===> Validation set: Average loss: 2.6783	Accuracy: 0.5545
+
+2024-05-13 12:32:56,474 - #### End epoch 42/120, elapsed time: 0.35597299999972165
+2024-05-13 12:32:56,493 - Train Epoch: 43 [0.0/1100 (0%)]	lr:0.00298	Accuracy: 0.9062	Loss: 0.223752
+2024-05-13 12:32:56,638 - Starting Validation
+2024-05-13 12:32:56,773 - ===> Validation set: Average loss: 2.9356	Accuracy: 0.5359
+
+2024-05-13 12:32:56,774 - #### End epoch 43/120, elapsed time: 0.2988740999999209
+2024-05-13 12:32:56,793 - Train Epoch: 44 [0.0/1100 (0%)]	lr:0.00293	Accuracy: 0.9453	Loss: 0.195970
+2024-05-13 12:32:56,939 - Starting Validation
+2024-05-13 12:32:57,076 - ===> Validation set: Average loss: 3.2194	Accuracy: 0.5277
+
+2024-05-13 12:32:57,077 - #### End epoch 44/120, elapsed time: 0.30316880000009405
+2024-05-13 12:32:57,096 - Train Epoch: 45 [0.0/1100 (0%)]	lr:0.00287	Accuracy: 0.8828	Loss: 0.246962
+2024-05-13 12:32:57,239 - Starting Validation
+2024-05-13 12:32:57,375 - ===> Validation set: Average loss: 2.8512	Accuracy: 0.5350
+
+2024-05-13 12:32:57,376 - #### End epoch 45/120, elapsed time: 0.2991039999997156
+2024-05-13 12:32:57,395 - Train Epoch: 46 [0.0/1100 (0%)]	lr:0.00281	Accuracy: 0.8438	Loss: 0.293011
+2024-05-13 12:32:57,539 - Starting Validation
+2024-05-13 12:32:57,675 - ===> Validation set: Average loss: 3.0823	Accuracy: 0.5350
+
+2024-05-13 12:32:57,675 - #### End epoch 46/120, elapsed time: 0.2993634000004022
+2024-05-13 12:32:57,694 - Train Epoch: 47 [0.0/1100 (0%)]	lr:0.00271	Accuracy: 0.8438	Loss: 0.328796
+2024-05-13 12:32:57,849 - Starting Validation
+2024-05-13 12:32:57,985 - ===> Validation set: Average loss: 4.2154	Accuracy: 0.3800
+
+2024-05-13 12:32:57,986 - #### End epoch 47/120, elapsed time: 0.3103074000000561
+2024-05-13 12:32:58,005 - Train Epoch: 48 [0.0/1100 (0%)]	lr:0.00263	Accuracy: 0.9141	Loss: 0.224977
+2024-05-13 12:32:58,148 - Starting Validation
+2024-05-13 12:32:58,285 - ===> Validation set: Average loss: 2.8655	Accuracy: 0.4759
+
+2024-05-13 12:32:58,285 - #### End epoch 48/120, elapsed time: 0.29939199999989796
+2024-05-13 12:32:58,304 - Train Epoch: 49 [0.0/1100 (0%)]	lr:0.00255	Accuracy: 0.8906	Loss: 0.244486
+2024-05-13 12:32:58,448 - Starting Validation
+2024-05-13 12:32:58,584 - ===> Validation set: Average loss: 2.7057	Accuracy: 0.5314
+
+2024-05-13 12:32:58,584 - #### End epoch 49/120, elapsed time: 0.2991631000004418
+2024-05-13 12:32:58,603 - Train Epoch: 50 [0.0/1100 (0%)]	lr:0.00247	Accuracy: 0.9141	Loss: 0.208967
+2024-05-13 12:32:58,747 - Starting Validation
+2024-05-13 12:32:58,885 - ===> Validation set: Average loss: 0.4973	Accuracy: 0.8064
+
+2024-05-13 12:33:02,179 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:33:02,179 - #### End epoch 50/120, elapsed time: 3.595217699999921
+2024-05-13 12:33:02,204 - Train Epoch: 51 [0.0/1100 (0%)]	lr:0.00234	Accuracy: 0.9062	Loss: 0.290456
+2024-05-13 12:33:02,385 - Starting Validation
+2024-05-13 12:33:02,532 - ===> Validation set: Average loss: 1.0774	Accuracy: 0.7055
+
+2024-05-13 12:33:02,532 - #### End epoch 51/120, elapsed time: 0.35313769999993383
+2024-05-13 12:33:02,552 - Train Epoch: 52 [0.0/1100 (0%)]	lr:0.00223	Accuracy: 0.9062	Loss: 0.248699
+2024-05-13 12:33:02,696 - Starting Validation
+2024-05-13 12:33:02,831 - ===> Validation set: Average loss: 2.8415	Accuracy: 0.5536
+
+2024-05-13 12:33:02,831 - #### End epoch 52/120, elapsed time: 0.29909739999948215
+2024-05-13 12:33:02,851 - Train Epoch: 53 [0.0/1100 (0%)]	lr:0.00213	Accuracy: 0.9453	Loss: 0.159407
+2024-05-13 12:33:02,998 - Starting Validation
+2024-05-13 12:33:03,135 - ===> Validation set: Average loss: 1.7439	Accuracy: 0.6182
+
+2024-05-13 12:33:03,135 - #### End epoch 53/120, elapsed time: 0.3029118999993443
+2024-05-13 12:33:03,154 - Train Epoch: 54 [0.0/1100 (0%)]	lr:0.00205	Accuracy: 0.9062	Loss: 0.170931
+2024-05-13 12:33:03,303 - Starting Validation
+2024-05-13 12:33:03,439 - ===> Validation set: Average loss: 0.5714	Accuracy: 0.7664
+
+2024-05-13 12:33:03,439 - #### End epoch 54/120, elapsed time: 0.30442330000005313
+2024-05-13 12:33:03,459 - Train Epoch: 55 [0.0/1100 (0%)]	lr:0.00197	Accuracy: 0.8672	Loss: 0.281077
+2024-05-13 12:33:03,611 - Starting Validation
+2024-05-13 12:33:03,758 - ===> Validation set: Average loss: 1.7552	Accuracy: 0.6018
+
+2024-05-13 12:33:03,758 - #### End epoch 55/120, elapsed time: 0.3194653999998991
+2024-05-13 12:33:03,777 - Train Epoch: 56 [0.0/1100 (0%)]	lr:0.00184	Accuracy: 0.9453	Loss: 0.171521
+2024-05-13 12:33:03,922 - Starting Validation
+2024-05-13 12:33:04,059 - ===> Validation set: Average loss: 0.4880	Accuracy: 0.8186
+
+2024-05-13 12:33:07,319 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:33:07,319 - #### End epoch 56/120, elapsed time: 3.5602177000000665
+2024-05-13 12:33:07,344 - Train Epoch: 57 [0.0/1100 (0%)]	lr:0.00173	Accuracy: 0.9141	Loss: 0.171237
+2024-05-13 12:33:07,513 - Starting Validation
+2024-05-13 12:33:07,662 - ===> Validation set: Average loss: 0.4836	Accuracy: 0.8205
+
+2024-05-13 12:33:10,915 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:33:10,915 - #### End epoch 57/120, elapsed time: 3.596585700000105
+2024-05-13 12:33:10,940 - Train Epoch: 58 [0.0/1100 (0%)]	lr:0.00165	Accuracy: 0.9141	Loss: 0.204099
+2024-05-13 12:33:11,113 - Starting Validation
+2024-05-13 12:33:11,251 - ===> Validation set: Average loss: 0.4645	Accuracy: 0.8286
+
+2024-05-13 12:33:14,659 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:33:14,659 - #### End epoch 58/120, elapsed time: 3.7434691999997085
+2024-05-13 12:33:14,684 - Train Epoch: 59 [0.0/1100 (0%)]	lr:0.00157	Accuracy: 0.9219	Loss: 0.206159
+2024-05-13 12:33:14,863 - Starting Validation
+2024-05-13 12:33:15,022 - ===> Validation set: Average loss: 0.5396	Accuracy: 0.7927
+
+2024-05-13 12:33:15,022 - #### End epoch 59/120, elapsed time: 0.3625802999995358
+2024-05-13 12:33:15,045 - Train Epoch: 60 [0.0/1100 (0%)]	lr:0.00150	Accuracy: 0.9453	Loss: 0.140318
+2024-05-13 12:33:15,196 - Starting Validation
+2024-05-13 12:33:15,332 - ===> Validation set: Average loss: 0.8507	Accuracy: 0.7223
+
+2024-05-13 12:33:15,332 - #### End epoch 60/120, elapsed time: 0.3095789999997578
+2024-05-13 12:33:15,351 - Train Epoch: 61 [0.0/1100 (0%)]	lr:0.00144	Accuracy: 0.9531	Loss: 0.119422
+2024-05-13 12:33:15,506 - Starting Validation
+2024-05-13 12:33:15,655 - ===> Validation set: Average loss: 0.8837	Accuracy: 0.7164
+
+2024-05-13 12:33:15,655 - #### End epoch 61/120, elapsed time: 0.32377290000022185
+2024-05-13 12:33:15,675 - Train Epoch: 62 [0.0/1100 (0%)]	lr:0.00139	Accuracy: 0.9297	Loss: 0.247692
+2024-05-13 12:33:15,827 - Starting Validation
+2024-05-13 12:33:15,963 - ===> Validation set: Average loss: 0.6919	Accuracy: 0.7564
+
+2024-05-13 12:33:15,963 - #### End epoch 62/120, elapsed time: 0.3078256999997393
+2024-05-13 12:33:15,982 - Train Epoch: 63 [0.0/1100 (0%)]	lr:0.00134	Accuracy: 0.9141	Loss: 0.166855
+2024-05-13 12:33:16,129 - Starting Validation
+2024-05-13 12:33:16,266 - ===> Validation set: Average loss: 1.1777	Accuracy: 0.7059
+
+2024-05-13 12:33:16,267 - #### End epoch 63/120, elapsed time: 0.3026772000002893
+2024-05-13 12:33:16,286 - Train Epoch: 64 [0.0/1100 (0%)]	lr:0.00126	Accuracy: 0.9219	Loss: 0.166426
+2024-05-13 12:33:16,430 - Starting Validation
+2024-05-13 12:33:16,568 - ===> Validation set: Average loss: 1.8905	Accuracy: 0.5977
+
+2024-05-13 12:33:16,568 - #### End epoch 64/120, elapsed time: 0.30167529999926046
+2024-05-13 12:33:16,588 - Train Epoch: 65 [0.0/1100 (0%)]	lr:0.00119	Accuracy: 0.9219	Loss: 0.180650
+2024-05-13 12:33:16,735 - Starting Validation
+2024-05-13 12:33:16,874 - ===> Validation set: Average loss: 1.0662	Accuracy: 0.7155
+
+2024-05-13 12:33:16,875 - #### End epoch 65/120, elapsed time: 0.3065942000002906
+2024-05-13 12:33:16,894 - Train Epoch: 66 [0.0/1100 (0%)]	lr:0.00113	Accuracy: 0.9531	Loss: 0.116495
+2024-05-13 12:33:17,043 - Starting Validation
+2024-05-13 12:33:17,183 - ===> Validation set: Average loss: 1.3263	Accuracy: 0.6686
+
+2024-05-13 12:33:17,183 - #### End epoch 66/120, elapsed time: 0.3081554000000324
+2024-05-13 12:33:17,202 - Train Epoch: 67 [0.0/1100 (0%)]	lr:0.00108	Accuracy: 0.9375	Loss: 0.138682
+2024-05-13 12:33:17,354 - Starting Validation
+2024-05-13 12:33:17,494 - ===> Validation set: Average loss: 1.0040	Accuracy: 0.7132
+
+2024-05-13 12:33:17,494 - #### End epoch 67/120, elapsed time: 0.3109740999998394
+2024-05-13 12:33:17,513 - Train Epoch: 68 [0.0/1100 (0%)]	lr:0.00100	Accuracy: 0.9219	Loss: 0.170547
+2024-05-13 12:33:17,665 - Starting Validation
+2024-05-13 12:33:17,806 - ===> Validation set: Average loss: 1.1124	Accuracy: 0.7077
+
+2024-05-13 12:33:17,806 - #### End epoch 68/120, elapsed time: 0.3118501000008109
+2024-05-13 12:33:17,825 - Train Epoch: 69 [0.0/1100 (0%)]	lr:0.00093	Accuracy: 0.9297	Loss: 0.175971
+2024-05-13 12:33:17,978 - Starting Validation
+2024-05-13 12:33:18,114 - ===> Validation set: Average loss: 1.4792	Accuracy: 0.6518
+
+2024-05-13 12:33:18,114 - #### End epoch 69/120, elapsed time: 0.3080928999997923
+2024-05-13 12:33:18,133 - Train Epoch: 70 [0.0/1100 (0%)]	lr:0.00088	Accuracy: 0.8984	Loss: 0.212729
+2024-05-13 12:33:18,277 - Starting Validation
+2024-05-13 12:33:18,413 - ===> Validation set: Average loss: 1.0844	Accuracy: 0.7041
+
+2024-05-13 12:33:18,414 - #### End epoch 70/120, elapsed time: 0.29999279999992723
+2024-05-13 12:33:18,433 - Train Epoch: 71 [0.0/1100 (0%)]	lr:0.00083	Accuracy: 0.9453	Loss: 0.177337
+2024-05-13 12:33:18,577 - Starting Validation
+2024-05-13 12:33:18,714 - ===> Validation set: Average loss: 0.4911	Accuracy: 0.8150
+
+2024-05-13 12:33:18,714 - #### End epoch 71/120, elapsed time: 0.2999106999996002
+2024-05-13 12:33:18,734 - Train Epoch: 72 [0.0/1100 (0%)]	lr:0.00075	Accuracy: 0.8906	Loss: 0.187209
+2024-05-13 12:33:18,877 - Starting Validation
+2024-05-13 12:33:19,014 - ===> Validation set: Average loss: 0.4801	Accuracy: 0.8232
+
+2024-05-13 12:33:19,014 - #### End epoch 72/120, elapsed time: 0.3001619999995455
+2024-05-13 12:33:19,034 - Train Epoch: 73 [0.0/1100 (0%)]	lr:0.00070	Accuracy: 0.9141	Loss: 0.175193
+2024-05-13 12:33:19,177 - Starting Validation
+2024-05-13 12:33:19,314 - ===> Validation set: Average loss: 0.8488	Accuracy: 0.7200
+
+2024-05-13 12:33:19,314 - #### End epoch 73/120, elapsed time: 0.300122000000556
+2024-05-13 12:33:19,333 - Train Epoch: 74 [0.0/1100 (0%)]	lr:0.00065	Accuracy: 0.9531	Loss: 0.121005
+2024-05-13 12:33:19,478 - Starting Validation
+2024-05-13 12:33:19,614 - ===> Validation set: Average loss: 0.5133	Accuracy: 0.8086
+
+2024-05-13 12:33:19,614 - #### End epoch 74/120, elapsed time: 0.2994903999997405
+2024-05-13 12:33:19,633 - Train Epoch: 75 [0.0/1100 (0%)]	lr:0.00061	Accuracy: 0.9062	Loss: 0.171707
+2024-05-13 12:33:19,777 - Starting Validation
+2024-05-13 12:33:19,914 - ===> Validation set: Average loss: 0.5016	Accuracy: 0.8277
+
+2024-05-13 12:33:19,914 - #### End epoch 75/120, elapsed time: 0.3000096999994639
+2024-05-13 12:33:19,933 - Train Epoch: 76 [0.0/1100 (0%)]	lr:0.00055	Accuracy: 0.9219	Loss: 0.171280
+2024-05-13 12:33:20,078 - Starting Validation
+2024-05-13 12:33:20,214 - ===> Validation set: Average loss: 0.4885	Accuracy: 0.8259
+
+2024-05-13 12:33:20,214 - #### End epoch 76/120, elapsed time: 0.3004829999999856
+2024-05-13 12:33:20,234 - Train Epoch: 77 [0.0/1100 (0%)]	lr:0.00051	Accuracy: 0.9531	Loss: 0.113350
+2024-05-13 12:33:20,379 - Starting Validation
+2024-05-13 12:33:20,515 - ===> Validation set: Average loss: 0.4873	Accuracy: 0.8268
+
+2024-05-13 12:33:20,515 - #### End epoch 77/120, elapsed time: 0.3007463000003554
+2024-05-13 12:33:20,534 - Train Epoch: 78 [0.0/1100 (0%)]	lr:0.00047	Accuracy: 0.9453	Loss: 0.136278
+2024-05-13 12:33:20,679 - Starting Validation
+2024-05-13 12:33:20,817 - ===> Validation set: Average loss: 0.4693	Accuracy: 0.8332
+
+2024-05-13 12:33:24,105 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:33:24,106 - #### End epoch 78/120, elapsed time: 3.5903730999998515
+2024-05-13 12:33:24,130 - Train Epoch: 79 [0.0/1100 (0%)]	lr:0.00045	Accuracy: 0.9141	Loss: 0.201592
+2024-05-13 12:33:24,310 - Starting Validation
+2024-05-13 12:33:24,467 - ===> Validation set: Average loss: 0.4897	Accuracy: 0.8205
+
+2024-05-13 12:33:24,467 - #### End epoch 79/120, elapsed time: 0.36187599999993836
+2024-05-13 12:33:24,488 - Train Epoch: 80 [0.0/1100 (0%)]	lr:0.00042	Accuracy: 0.9141	Loss: 0.172909
+2024-05-13 12:33:24,634 - Starting Validation
+2024-05-13 12:33:24,772 - ===> Validation set: Average loss: 0.4826	Accuracy: 0.8259
+
+2024-05-13 12:33:24,772 - #### End epoch 80/120, elapsed time: 0.30363219999981084
+2024-05-13 12:33:24,791 - Train Epoch: 81 [0.0/1100 (0%)]	lr:0.00040	Accuracy: 0.9219	Loss: 0.171195
+2024-05-13 12:33:24,937 - Starting Validation
+2024-05-13 12:33:25,074 - ===> Validation set: Average loss: 0.4963	Accuracy: 0.8218
+
+2024-05-13 12:33:25,074 - #### End epoch 81/120, elapsed time: 0.30235050000010233
+2024-05-13 12:33:25,093 - Train Epoch: 82 [0.0/1100 (0%)]	lr:0.00038	Accuracy: 0.9453	Loss: 0.141888
+2024-05-13 12:33:25,237 - Starting Validation
+2024-05-13 12:33:25,373 - ===> Validation set: Average loss: 0.4948	Accuracy: 0.8232
+
+2024-05-13 12:33:25,373 - #### End epoch 82/120, elapsed time: 0.2997974999998405
+2024-05-13 12:33:25,393 - Train Epoch: 83 [0.0/1100 (0%)]	lr:0.00037	Accuracy: 0.8984	Loss: 0.198750
+2024-05-13 12:33:25,537 - Starting Validation
+2024-05-13 12:33:25,674 - ===> Validation set: Average loss: 0.5483	Accuracy: 0.8032
+
+2024-05-13 12:33:25,674 - #### End epoch 83/120, elapsed time: 0.29964269999982207
+2024-05-13 12:33:25,693 - Train Epoch: 84 [0.0/1100 (0%)]	lr:0.00034	Accuracy: 0.9531	Loss: 0.134037
+2024-05-13 12:33:25,843 - Starting Validation
+2024-05-13 12:33:25,980 - ===> Validation set: Average loss: 0.5251	Accuracy: 0.8145
+
+2024-05-13 12:33:25,980 - #### End epoch 84/120, elapsed time: 0.3062773000001471
+2024-05-13 12:33:25,999 - Train Epoch: 85 [0.0/1100 (0%)]	lr:0.00032	Accuracy: 0.9375	Loss: 0.144550
+2024-05-13 12:33:26,143 - Starting Validation
+2024-05-13 12:33:26,280 - ===> Validation set: Average loss: 0.5045	Accuracy: 0.8223
+
+2024-05-13 12:33:26,280 - #### End epoch 85/120, elapsed time: 0.30029259999992064
+2024-05-13 12:33:26,299 - Train Epoch: 86 [0.0/1100 (0%)]	lr:0.00030	Accuracy: 0.9375	Loss: 0.146826
+2024-05-13 12:33:26,447 - Starting Validation
+2024-05-13 12:33:26,583 - ===> Validation set: Average loss: 0.4984	Accuracy: 0.8223
+
+2024-05-13 12:33:26,584 - #### End epoch 86/120, elapsed time: 0.3030515000000378
+2024-05-13 12:33:26,603 - Train Epoch: 87 [0.0/1100 (0%)]	lr:0.00028	Accuracy: 0.9375	Loss: 0.145352
+2024-05-13 12:33:26,746 - Starting Validation
+2024-05-13 12:33:26,883 - ===> Validation set: Average loss: 0.4795	Accuracy: 0.8282
+
+2024-05-13 12:33:26,883 - #### End epoch 87/120, elapsed time: 0.29986470000039844
+2024-05-13 12:33:26,903 - Train Epoch: 88 [0.0/1100 (0%)]	lr:0.00026	Accuracy: 0.9375	Loss: 0.161014
+2024-05-13 12:33:27,047 - Starting Validation
+2024-05-13 12:33:27,183 - ===> Validation set: Average loss: 0.4823	Accuracy: 0.8259
+
+2024-05-13 12:33:27,183 - #### End epoch 88/120, elapsed time: 0.3002114000000802
+2024-05-13 12:33:27,203 - Train Epoch: 89 [0.0/1100 (0%)]	lr:0.00024	Accuracy: 0.9609	Loss: 0.117794
+2024-05-13 12:33:27,351 - Starting Validation
+2024-05-13 12:33:27,488 - ===> Validation set: Average loss: 0.5050	Accuracy: 0.8200
+
+2024-05-13 12:33:27,488 - #### End epoch 89/120, elapsed time: 0.30464260000007926
+2024-05-13 12:33:27,507 - Train Epoch: 90 [0.0/1100 (0%)]	lr:0.00023	Accuracy: 0.9219	Loss: 0.145644
+2024-05-13 12:33:27,652 - Starting Validation
+2024-05-13 12:33:27,791 - ===> Validation set: Average loss: 0.4955	Accuracy: 0.8241
+
+2024-05-13 12:33:27,791 - #### End epoch 90/120, elapsed time: 0.30202960000042367
+2024-05-13 12:33:27,809 - Train Epoch: 91 [0.0/1100 (0%)]	lr:0.00021	Accuracy: 0.9844	Loss: 0.119414
+2024-05-13 12:33:27,960 - Starting Validation
+2024-05-13 12:33:28,098 - ===> Validation set: Average loss: 0.4929	Accuracy: 0.8259
+
+2024-05-13 12:33:28,098 - #### End epoch 91/120, elapsed time: 0.30782510000062757
+2024-05-13 12:33:28,118 - Train Epoch: 92 [0.0/1100 (0%)]	lr:0.00019	Accuracy: 0.9688	Loss: 0.111253
+2024-05-13 12:33:28,263 - Starting Validation
+2024-05-13 12:33:28,399 - ===> Validation set: Average loss: 0.4935	Accuracy: 0.8245
+
+2024-05-13 12:33:28,399 - #### End epoch 92/120, elapsed time: 0.3012825999994675
+2024-05-13 12:33:28,419 - Train Epoch: 93 [0.0/1100 (0%)]	lr:0.00018	Accuracy: 0.9297	Loss: 0.164760
+2024-05-13 12:33:28,563 - Starting Validation
+2024-05-13 12:33:28,702 - ===> Validation set: Average loss: 0.4864	Accuracy: 0.8264
+
+2024-05-13 12:33:28,703 - #### End epoch 93/120, elapsed time: 0.30238790000021254
+2024-05-13 12:33:28,722 - Train Epoch: 94 [0.0/1100 (0%)]	lr:0.00017	Accuracy: 0.9297	Loss: 0.162047
+2024-05-13 12:33:28,869 - Starting Validation
+2024-05-13 12:33:29,009 - ===> Validation set: Average loss: 0.4885	Accuracy: 0.8277
+
+2024-05-13 12:33:29,009 - #### End epoch 94/120, elapsed time: 0.3065924000002269
+2024-05-13 12:33:29,028 - Train Epoch: 95 [0.0/1100 (0%)]	lr:0.00016	Accuracy: 0.9219	Loss: 0.183559
+2024-05-13 12:33:29,184 - Starting Validation
+2024-05-13 12:33:29,324 - ===> Validation set: Average loss: 0.4847	Accuracy: 0.8291
+
+2024-05-13 12:33:29,324 - #### End epoch 95/120, elapsed time: 0.3151676999996198
+2024-05-13 12:33:29,343 - Train Epoch: 96 [0.0/1100 (0%)]	lr:0.00014	Accuracy: 0.9141	Loss: 0.160563
+2024-05-13 12:33:29,487 - Starting Validation
+2024-05-13 12:33:29,625 - ===> Validation set: Average loss: 0.4971	Accuracy: 0.8264
+
+2024-05-13 12:33:29,625 - #### End epoch 96/120, elapsed time: 0.30044550000002346
+2024-05-13 12:33:29,644 - Train Epoch: 97 [0.0/1100 (0%)]	lr:0.00013	Accuracy: 0.9375	Loss: 0.168950
+2024-05-13 12:33:29,786 - Starting Validation
+2024-05-13 12:33:29,930 - ===> Validation set: Average loss: 0.4938	Accuracy: 0.8264
+
+2024-05-13 12:33:29,930 - #### End epoch 97/120, elapsed time: 0.3055869999998322
+2024-05-13 12:33:29,950 - Train Epoch: 98 [0.0/1100 (0%)]	lr:0.00012	Accuracy: 0.9531	Loss: 0.155567
+2024-05-13 12:33:30,094 - Starting Validation
+2024-05-13 12:33:30,230 - ===> Validation set: Average loss: 0.4889	Accuracy: 0.8291
+
+2024-05-13 12:33:30,231 - #### End epoch 98/120, elapsed time: 0.3003237999992052
+2024-05-13 12:33:30,250 - Train Epoch: 99 [0.0/1100 (0%)]	lr:0.00011	Accuracy: 0.9141	Loss: 0.158647
+2024-05-13 12:33:30,396 - Starting Validation
+2024-05-13 12:33:30,538 - ===> Validation set: Average loss: 0.4986	Accuracy: 0.8232
+
+2024-05-13 12:33:30,538 - #### End epoch 99/120, elapsed time: 0.30755059999955847
+2024-05-13 12:33:30,557 - Train Epoch: 100 [0.0/1100 (0%)]	lr:0.00010	Accuracy: 0.9297	Loss: 0.160097
+2024-05-13 12:33:30,702 - Starting Validation
+2024-05-13 12:33:30,838 - ===> Validation set: Average loss: 0.5041	Accuracy: 0.8232
+
+2024-05-13 12:33:30,838 - #### End epoch 100/120, elapsed time: 0.3002936000002592
+2024-05-13 12:33:30,858 - Train Epoch: 101 [0.0/1100 (0%)]	lr:0.00009	Accuracy: 0.8750	Loss: 0.215271
+2024-05-13 12:33:31,004 - Starting Validation
+2024-05-13 12:33:31,141 - ===> Validation set: Average loss: 0.5046	Accuracy: 0.8236
+
+2024-05-13 12:33:31,141 - #### End epoch 101/120, elapsed time: 0.3024429000006421
+2024-05-13 12:33:31,161 - Train Epoch: 102 [0.0/1100 (0%)]	lr:0.00009	Accuracy: 0.9531	Loss: 0.144481
+2024-05-13 12:33:31,304 - Starting Validation
+2024-05-13 12:33:31,441 - ===> Validation set: Average loss: 0.4945	Accuracy: 0.8223
+
+2024-05-13 12:33:31,441 - #### End epoch 102/120, elapsed time: 0.300057100000231
+2024-05-13 12:33:31,461 - Train Epoch: 103 [0.0/1100 (0%)]	lr:0.00008	Accuracy: 0.9219	Loss: 0.152860
+2024-05-13 12:33:31,604 - Starting Validation
+2024-05-13 12:33:31,741 - ===> Validation set: Average loss: 0.4913	Accuracy: 0.8255
+
+2024-05-13 12:33:31,742 - #### End epoch 103/120, elapsed time: 0.3003382999995665
+2024-05-13 12:33:31,761 - Train Epoch: 104 [0.0/1100 (0%)]	lr:0.00007	Accuracy: 0.9766	Loss: 0.098769
+2024-05-13 12:33:31,905 - Starting Validation
+2024-05-13 12:33:32,045 - ===> Validation set: Average loss: 0.4983	Accuracy: 0.8268
+
+2024-05-13 12:33:32,045 - #### End epoch 104/120, elapsed time: 0.30366099999992
+2024-05-13 12:33:32,065 - Train Epoch: 105 [0.0/1100 (0%)]	lr:0.00007	Accuracy: 0.9688	Loss: 0.132274
+2024-05-13 12:33:32,209 - Starting Validation
+2024-05-13 12:33:32,345 - ===> Validation set: Average loss: 0.4939	Accuracy: 0.8300
+
+2024-05-13 12:33:32,345 - #### End epoch 105/120, elapsed time: 0.29997460000049614
+2024-05-13 12:33:32,364 - Train Epoch: 106 [0.0/1100 (0%)]	lr:0.00006	Accuracy: 0.9766	Loss: 0.143627
+2024-05-13 12:33:32,515 - Starting Validation
+2024-05-13 12:33:32,652 - ===> Validation set: Average loss: 0.5017	Accuracy: 0.8245
+
+2024-05-13 12:33:32,652 - #### End epoch 106/120, elapsed time: 0.3061018000007607
+2024-05-13 12:33:32,671 - Train Epoch: 107 [0.0/1100 (0%)]	lr:0.00006	Accuracy: 0.9609	Loss: 0.129137
+2024-05-13 12:33:32,815 - Starting Validation
+2024-05-13 12:33:32,953 - ===> Validation set: Average loss: 0.5040	Accuracy: 0.8209
+
+2024-05-13 12:33:32,953 - #### End epoch 107/120, elapsed time: 0.3013371000006373
+2024-05-13 12:33:32,973 - Train Epoch: 108 [0.0/1100 (0%)]	lr:0.00005	Accuracy: 0.9531	Loss: 0.157033
+2024-05-13 12:33:33,118 - Starting Validation
+2024-05-13 12:33:33,255 - ===> Validation set: Average loss: 0.5022	Accuracy: 0.8236
+
+2024-05-13 12:33:33,255 - #### End epoch 108/120, elapsed time: 0.3020265000004656
+2024-05-13 12:33:33,274 - Train Epoch: 109 [0.0/1100 (0%)]	lr:0.00005	Accuracy: 0.9766	Loss: 0.125206
+2024-05-13 12:33:33,418 - Starting Validation
+2024-05-13 12:33:33,555 - ===> Validation set: Average loss: 0.5055	Accuracy: 0.8232
+
+2024-05-13 12:33:33,555 - #### End epoch 109/120, elapsed time: 0.2995937000005142
+2024-05-13 12:33:33,574 - Train Epoch: 110 [0.0/1100 (0%)]	lr:0.00004	Accuracy: 0.9062	Loss: 0.180711
+2024-05-13 12:33:33,718 - Starting Validation
+2024-05-13 12:33:33,855 - ===> Validation set: Average loss: 0.5064	Accuracy: 0.8195
+
+2024-05-13 12:33:33,855 - #### End epoch 110/120, elapsed time: 0.30022690000078
+2024-05-13 12:33:33,874 - Train Epoch: 111 [0.0/1100 (0%)]	lr:0.00004	Accuracy: 0.9609	Loss: 0.124032
+2024-05-13 12:33:34,018 - Starting Validation
+2024-05-13 12:33:34,155 - ===> Validation set: Average loss: 0.4989	Accuracy: 0.8236
+
+2024-05-13 12:33:34,156 - #### End epoch 111/120, elapsed time: 0.3004774000000907
+2024-05-13 12:33:34,175 - Train Epoch: 112 [0.0/1100 (0%)]	lr:0.00004	Accuracy: 0.9219	Loss: 0.176154
+2024-05-13 12:33:34,320 - Starting Validation
+2024-05-13 12:33:34,462 - ===> Validation set: Average loss: 0.5026	Accuracy: 0.8209
+
+2024-05-13 12:33:34,462 - #### End epoch 112/120, elapsed time: 0.30599549999988085
+2024-05-13 12:33:34,483 - Train Epoch: 113 [0.0/1100 (0%)]	lr:0.00003	Accuracy: 0.9453	Loss: 0.134861
+2024-05-13 12:33:34,636 - Starting Validation
+2024-05-13 12:33:34,776 - ===> Validation set: Average loss: 0.5004	Accuracy: 0.8214
+
+2024-05-13 12:33:34,776 - #### End epoch 113/120, elapsed time: 0.3144218000006731
+2024-05-13 12:33:34,795 - Train Epoch: 114 [0.0/1100 (0%)]	lr:0.00003	Accuracy: 0.9531	Loss: 0.144631
+2024-05-13 12:33:34,945 - Starting Validation
+2024-05-13 12:33:35,086 - ===> Validation set: Average loss: 0.4978	Accuracy: 0.8250
+
+2024-05-13 12:33:35,086 - #### End epoch 114/120, elapsed time: 0.30920879999939643
+2024-05-13 12:33:35,105 - Train Epoch: 115 [0.0/1100 (0%)]	lr:0.00003	Accuracy: 0.9688	Loss: 0.115578
+2024-05-13 12:33:35,253 - Starting Validation
+2024-05-13 12:33:35,393 - ===> Validation set: Average loss: 0.4975	Accuracy: 0.8245
+
+2024-05-13 12:33:35,393 - #### End epoch 115/120, elapsed time: 0.3073301000003994
+2024-05-13 12:33:35,412 - Train Epoch: 116 [0.0/1100 (0%)]	lr:0.00003	Accuracy: 0.9609	Loss: 0.126257
+2024-05-13 12:33:35,562 - Starting Validation
+2024-05-13 12:33:35,703 - ===> Validation set: Average loss: 0.4936	Accuracy: 0.8245
+
+2024-05-13 12:33:35,703 - #### End epoch 116/120, elapsed time: 0.30982739999944897
+2024-05-13 12:33:35,722 - Train Epoch: 117 [0.0/1100 (0%)]	lr:0.00002	Accuracy: 0.9453	Loss: 0.178420
+2024-05-13 12:33:35,873 - Starting Validation
+2024-05-13 12:33:36,014 - ===> Validation set: Average loss: 0.4967	Accuracy: 0.8255
+
+2024-05-13 12:33:36,014 - #### End epoch 117/120, elapsed time: 0.31098560000009456
+2024-05-13 12:33:36,033 - Train Epoch: 118 [0.0/1100 (0%)]	lr:0.00002	Accuracy: 0.9453	Loss: 0.137302
+2024-05-13 12:33:36,183 - Starting Validation
+2024-05-13 12:33:36,322 - ===> Validation set: Average loss: 0.4988	Accuracy: 0.8259
+
+2024-05-13 12:33:36,322 - #### End epoch 118/120, elapsed time: 0.3083881999991718
+2024-05-13 12:33:36,341 - Train Epoch: 119 [0.0/1100 (0%)]	lr:0.00002	Accuracy: 0.9375	Loss: 0.136917
+2024-05-13 12:33:36,496 - Starting Validation
+2024-05-13 12:33:36,636 - ===> Validation set: Average loss: 0.4923	Accuracy: 0.8286
+
+2024-05-13 12:33:36,636 - #### End epoch 119/120, elapsed time: 0.31379930000002787
+2024-05-13 12:33:36,655 - Train Epoch: 120 [0.0/1100 (0%)]	lr:0.00002	Accuracy: 0.9219	Loss: 0.149098
+2024-05-13 12:33:36,802 - Starting Validation
+2024-05-13 12:33:36,942 - ===> Validation set: Average loss: 0.4986	Accuracy: 0.8264
+
+2024-05-13 12:33:36,942 - #### End epoch 120/120, elapsed time: 0.30544580000059796
+2024-05-13 12:33:40,266 - Snapshot saved to spk_class_new//spk_snr_0//_100_shot_8\cdc-2024-05-13_10_50_03-model_last.pth
+
+2024-05-13 12:33:40,325 - ################## Success #########################
+2024-05-13 12:33:40,325 - Total elapsed time: 107.93433819999973
